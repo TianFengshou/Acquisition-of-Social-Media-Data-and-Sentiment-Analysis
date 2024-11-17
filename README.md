@@ -9,7 +9,9 @@ With the continuous progress of Internet technology and the popularization of in
 ## Problem Background
 
 The development of social media: The rapid rise of social media platforms has led to an explosive growth in the amount of user generated content (UGC). These short texts have a large amount of information and fast update speed, making it a challenge to effectively extract valuable information from them.
+
 The Importance of Sentiment Analysis: Sentiment analysis can help businesses understand consumers' attitudes towards products or services, providing a basis for marketing strategies; Meanwhile, government agencies can monitor online public opinion through sentiment analysis and respond promptly to social events.
+
 The difficulty of short text analysis: Social media short texts have the characteristics of non-standard language, diverse expressions, and complex emotional tendencies, which bring many difficulties to sentiment analysis.
 
 ## Problem Statement
@@ -26,7 +28,7 @@ Crawler system: at least two-thirds of Weibo, Zhihu, Xiaohongshu or other new me
 
 Public opinion analysis: including common deep learning based data analysis such as sentiment analysis and multi class sentiment analysis, as well as common statistical analysis and visualization such as word clouds.
 
-## Scopes of the Project:
+## Scopes of the Project
 
 This project does not include sentiment analysis of long texts or non social media texts.
 
@@ -50,7 +52,7 @@ Provide an emotional trend report showcasing key emotional changes monitored dur
 
 ### Software
 
-Scrapy, Requests,Paddle,PyTorch,PyEcharts,Pandas,Numpy,Matplotlib,Jupyter Notebook,PyCharm,Anaconda.
+Scrapy, Requests, Paddle, PyTorch, PyEcharts, Pandas, Numpy, Matplotlib, Jupyter Notebook/lab, Anaconda.
 
 ### Hardware
 
