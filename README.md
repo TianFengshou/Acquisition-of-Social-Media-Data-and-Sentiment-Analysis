@@ -4,15 +4,17 @@ Data and code for my project "Acquisition of Social Media Data and Sentiment Ana
 
 ## Introduction
 
-With the continuous progress of Internet technology and the popularization of intelligent mobile devices, social media has become an indispensable part of people's daily life. The status updates, comments, Weibo and other short text content posted by users on social media platforms not only reflect their immediate emotions and attitudes, but also contain rich social information. Emotion analysis, as an important branch of natural language processing, aims to identify and extract emotional tendencies in text, and has significant application value in areas such as enterprise brand monitoring, market trend analysis, and public opinion monitoring.
+With the continuous progress of Internet technology and the popularization of intelligent mobile devices, social media has become an indispensable part of people's daily life. 
+
+The twitter, Weibo (a specific short text in the chinese APP- weibo), comment, reply  and other short text content posted by users on social media platforms not only reflect their immediate emotions and attitudes, but also contain rich social information. Emotion analysis, as an important branch of natural language processing, aims to identify and extract emotional tendencies in text, and has significant application value in areas such as enterprise brand monitoring, market trend analysis, and public opinion monitoring.
 
 ## Problem Background
 
-The development of social media: The rapid rise of social media platforms has led to an explosive growth in the amount of user generated content (UGC). These short texts have a large amount of information and fast update speed, making it a challenge to effectively extract valuable information from them.
+(1)Effective data acquisition methods: Commercial websites such as social media have anti crawler mechanisms, so corresponding technologies are needed to effectively obtain the data we need.
 
-The Importance of Sentiment Analysis: Sentiment analysis can help businesses understand consumers' attitudes towards products or services, providing a basis for marketing strategies; Meanwhile, government agencies can monitor online public opinion through sentiment analysis and respond promptly to social events.
+(2)Effective data processing and management: The current social media data structure is complex and may include images, emojis, hyperlinks, videos, voice, etc. How to effectively extract, transform, and manage data will be a challenge.
 
-The difficulty of short text analysis: Social media short texts have the characteristics of non-standard language, diverse expressions, and complex emotional tendencies, which bring many difficulties to sentiment analysis.
+(3)Efficient and low-cost sentiment analysis method: Modern social media data has a huge daily production volume. Due to the enormous amount of data and the importance of sentiment analysis in public opinion monitoring, media public relations, and other fields, it is also a challenge to conduct sentiment analysis efficiently and at the lowest possible cost.
 
 ## Problem Statement
 
@@ -26,11 +28,13 @@ Build a crawler system to selectively obtain data from social media or new media
 
 Crawler system: at least two-thirds of Weibo, Zhihu, Xiaohongshu or other new media websites, as they plan to build cross platform tracking.
 
-Public opinion analysis: including common deep learning based data analysis such as sentiment analysis and multi class sentiment analysis, as well as common statistical analysis and visualization such as word clouds.
+Data processing program: Multiple data processing programs suitable for reading, processing, converting, and storing data from different platforms.
+
+Multiple sentiment analysis models: One sentiment analysis model that can be used for common Chinese social media network short texts. 
 
 ## Scopes of the Project
 
-This project does not include sentiment analysis of long texts or non social media texts.
+This project just include short texts,  does not include sentiment analysis of long texts or non social media texts.
 
 The project does not involve sentiment analysis of voice or video data.
 
@@ -61,3 +65,7 @@ Windows or Ubuntu, capable of running Paddle and Pytorch hardware effectively
 ### Technology/Technique/ Methodology/Algorithm
 
 Web crawler, NLP, Data visualization.
+
+## References
+
+1. [ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation](https://arxiv.org/abs/2107.02137)
