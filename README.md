@@ -4,9 +4,9 @@ Data and code for my project "Acquisition of Social Media Data and Sentiment Ana
 
 ## Introduction
 
-With the continuous progress of Internet technology and the popularization of intelligent mobile devices, social media has become an indispensable part of people's daily life. 
+As internet technology advances and intelligent mobile devices become widespread, social media has grown into an essential component of daily life for people. 
 
-The twitter, Weibo (a specific short text in the chinese APP- weibo), comment, reply  and other short text content posted by users on social media platforms not only reflect their immediate emotions and attitudes, but also contain rich social information. Emotion analysis, as an important branch of natural language processing, aims to identify and extract emotional tendencies in text, and has significant application value in areas such as enterprise brand monitoring, market trend analysis, and public opinion monitoring.
+The twitter, Weibo (a specific short text in the Chinese APP - weibo), comment, reply  and other short text content posted by users on social media platforms not only reflect their immediate emotions and attitudes, but also contain rich social information. Emotion analysis, as an important branch of natural language processing, aims to identify and extract emotional tendencies in text, and has significant application value in areas such as enterprise brand monitoring, market trend analysis, and public opinion monitoring.
 
 ## Problem Background
 
